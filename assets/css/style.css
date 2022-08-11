@@ -1,0 +1,33 @@
+/* Vorname (required)
+Nachname (required)
+Email (required)
+Thema: General || Advertise || Partnership
+Nachricht (required)
+ */
+/* Hinweise
+
+
+Das placeholder-Attribut im Eingabefeld gibt Tipps zum Ausfüllen.
+Um CSS auf ein Formular anzuwenden, verwenden wir die Attributselektoren.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  padding: 2rem;
+}
+.btn {
+  margin-top: 10px;
+  background-color: #325862;
+  border-color: lightgrey;
+  width: 32rem;
+  color: white;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: black;
+}
+span {
+  color: red;
+}

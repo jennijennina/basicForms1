@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css Forms Aufgabenstellung</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== Name ===== -->
+<div>
+  <label for="">Name <span>*</span></label>
+</div>
+      <input
+        type="text"
+        name="Vorname"
+        id="Vorname"
+        placeholder="Vorname"
+        size="35" style="border-color:lightgrey;"
+        required>
+      <input type="text" 
+      name="Nachname"
+        id="Nachname"
+        placeholder="Nachname"
+        size="35" style="border-color:lightgrey;"
+        required>
+
+    <!-- ===== Email ===== -->
+ <div>
+  <label for="">Email  <span>*</span></label>
+   
+</div>
+    <div>
+      <label for="mail"></label>
+      <input type="email" name="email" id="email" size="72.5" style="border-color:lightgrey;" >
+    </div>
+    <!-- ===== Thema ===== -->
+
+    <div>
+      <label for="Thema">Thema</label>
+      </div>
+      <input list="Thema2" id="Thema" name="Thema" size="72.5" style="border-color:lightgrey;">
+      <datalist id="Thema2">
+        <option value="General"></option>
+        <option value="Advertise"></option>
+        <option value="Partnership"></option>
+      </datalist>
+    </div>
+
+    <div>
+  <label for="">Nachricht<span>*</span></label>
+</div>
+    <div>
+      <label for="Nachricht"></label>
+      <textarea name="feedback" id="" cols="62.5" rows="10" style="border-color:lightgrey;"></textarea>
+    </div>
+    <input type="submit" value="Submit" class="btn">
+  </body>
+</html>
