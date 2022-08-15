@@ -21,7 +21,7 @@ html {
   margin-top: 10px;
   background-color: #325862;
   border-color: lightgrey;
-  width: 32rem;
+  width: 32.3rem;
   color: white;
   padding: 5px;
 }
@@ -30,4 +30,16 @@ html {
 }
 span {
   color: red;
+}
+input,
+select,
+textarea {
+  width: 32rem;
+}
+#vorname,
+#nachname {
+  width: 15.7rem;
+}
+#email {
+  width: 31.8rem;
 }
